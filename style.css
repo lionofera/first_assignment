@@ -1,0 +1,84 @@
+body {
+    background-color: cornsilk;
+}
+.header_w_img{
+    background-image: url(images/donation10.jpg);
+   
+    height: 400px;
+    margin: 0;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: aliceblue;
+}
+p {
+    text-align: center;
+    color: rgb(50, 56, 56);
+}
+h2  {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.donation_amount{
+    margin-top: 50px;
+    
+    
+}
+
+.amnt_box  {
+
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    
+}
+li {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    flex-flow: row;
+    height: 20px;
+    width: 5px;
+    margin: 2px;
+
+    color: rgb(87, 231, 58);
+    
+}
+.footer {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+h3 {
+    color: salmon;
+}
+
+.donation_plan {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+.plan-types {
+    display: flex;
+    
+    justify-content: center;
+   
+}
+.plan-1 {
+    width: 300px;
+    height: 200px;
+    border: solid 1px beige;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+h4 {
+    text-align: center;
+}
